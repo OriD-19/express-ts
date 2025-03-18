@@ -37,3 +37,7 @@ Como se puede ver, debemos modificar los valores de "db_username" y "db_password
 Para seguir mejores prácticas, he creado un archivo `.env` en la raíz del proyecto, donde iría toda la información sensible (como el nombre de usuario y la contraseña de la base de datos). Además, debemos instalar un paquete adicional para las variables de entorno:
 
 ```npm install dotenv --save```
+
+### .env de ejemplo
+
+También agregué un archivo `.env.example`, para que lo tomen de base. Lo único que deben hacer es reemplazar los valores de ejemplo que están puestos ahí, y quitarle la extensión ".example" del final del nombre del archivo. 
